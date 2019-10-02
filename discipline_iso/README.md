@@ -3,9 +3,8 @@
 
 [BOM, Build Guide, and Flashing Information](./doc)
 
-Kits available at [cftkb.com](https://www.cftkb.com)
+Ansi (lol) Kits available at [cftkb.com](https://www.cftkb.com)
 
 ![discipline](./doc/images/discipline_iso_kicad.png)
 ![](./doc/images/discipline-iso.png)
-![](./doc/images/discipline-top.png)
-![](./doc/images/discipline-bottom.png)
+
