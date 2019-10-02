@@ -1942,8 +1942,6 @@ row2
 Wire Wire Line
 	2850 5050 2900 5050
 Connection ~ 2900 5050
-Wire Wire Line
-	2900 5050 3650 5050
 Text Label 2850 5050 0    50   ~ 0
 row3
 Wire Wire Line
@@ -2891,11 +2889,6 @@ $EndComp
 Connection ~ 4250 4700
 Wire Wire Line
 	4250 4700 4250 5250
-Wire Wire Line
-	3650 4700 3650 5050
-Connection ~ 3650 5050
-Wire Wire Line
-	3650 5050 4300 5050
 $Comp
 L discipline-pcb-rescue:KEYSW-keyboard_parts SW310
 U 1 1 5D93F9BC
@@ -3132,4 +3125,35 @@ F 3 "" H 6000 8100 60  0000 C CNN
 	1    6000 8100
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2900 5050 3634 5050
+Wire Wire Line
+	3610 4700 3650 4700
+$Comp
+L Device:D D690
+U 1 1 5D9538D9
+P 3585 4867
+F 0 "D690" V 3631 4788 50  0000 R CNN
+F 1 " " V 3540 4788 50  0000 R CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 3585 4867 50  0001 C CNN
+F 3 "~" H 3585 4867 50  0001 C CNN
+	1    3585 4867
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3585 5017 3634 5017
+Wire Wire Line
+	3634 5017 3634 5050
+Connection ~ 3634 5050
+Wire Wire Line
+	3634 5050 4300 5050
+Wire Wire Line
+	3585 4718 3585 4717
+Wire Wire Line
+	3585 4667 3610 4667
+Wire Wire Line
+	3610 4667 3610 4700
+Connection ~ 3585 4717
+Wire Wire Line
+	3585 4717 3585 4667
 $EndSCHEMATC
