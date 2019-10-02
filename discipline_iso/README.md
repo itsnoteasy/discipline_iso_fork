@@ -5,7 +5,7 @@
 
 Kits available at [cftkb.com](https://www.cftkb.com)
 
-![discipline](./doc/images/discipline_iso_kicad.jpeg)
+![discipline](./doc/images/discipline_iso_kicad.png)
 ![](./doc/images/discipline-iso.png)
 ![](./doc/images/discipline-top.png)
 ![](./doc/images/discipline-bottom.png)
